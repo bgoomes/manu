@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(39, 38, 38);
+}
+
+.app{
+    width: 350px;
+    margin:100px auto 0 auto;
+    border: 1px solid rgb(93, 93, 93);
+    padding: 50px;
+    border-radius: 15px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    border: 1px solid pink;
+    border-radius: 50%;
+}
+
+h1{
+    color: pink;
+    text-align: center;
+}
+
+p{
+    font-size: 20px;
+    font-weight: bold;
+    color: bisque;
+    text-align: center;
+}
+
+.button{
+    margin-top: 30px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.sim {
+    width: 100px;
+    height: 100px;
+    padding: auto;
+    font-size: 18px;
+    color: rgb(2, 2, 1);
+    background-color: pink;
+    border: 0;
+    border-radius: 50px;
+}
+
+.claro{
+    width: 100px;
+    height: 100px;
+    padding: auto;
+    font-size: 18px;
+    color: rgb(2, 2, 1);
+    background-color: red;
+    border: 0;
+    border-radius: 50px;
+}
+
+.sim:hover{
+    cursor: pointer;
+    background-color: rgb(245, 161, 175);
+}
+
+.claro:hover{
+    cursor: pointer;
+    background-color: rgb(240, 32, 32);
+}
